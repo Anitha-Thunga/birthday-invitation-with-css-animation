@@ -1,0 +1,67 @@
+/* styles for body*/
+body {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+  background: linear-gradient(to bottom #fff5f8, #ffeef4);
+  font-family: "Poppins", sans-serif;
+
+}
+/* styles for whole card*/
+.card {
+  position: relative;
+  width: 420px;
+  padding: 40px;
+  background: #FFFF;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(236, 53, 53, 0.1);
+  overflow:hidden;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+/*styles for photo*/
+
+.photo_frame {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border: 6px solid #f7c9d9;
+  animation: fadeIn 5s infinite alternate;
+  background:url(../images/butterfly\ image.png);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* styles for subtitle,name & address*/
+.subtitle {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #95ec11;
+}
+
+.title {
+  font-family: "poppins", sans-serif;
+  font-style: italic;
+  font-size: 42px;
+  margin: 10px 0;
+  color: #e21c54;
+  animation: sparkle 2s infinite alternate;
+}
+
+.invite_address {
+  font-size: 16px;
+  color: #1d0606;
+  margin-top: 10px;
+}
